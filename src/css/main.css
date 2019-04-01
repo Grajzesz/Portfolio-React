@@ -11,6 +11,8 @@ a {
   position: relative;
   max-width: 100%;
   background-size: cover;
+  min-height: auto;
+  margin-top: 1%;
   margin: 0 auto;
   width: 100%;
   min-height: 98%;
@@ -262,6 +264,9 @@ a {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin-left: 27%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer__container .footer__container-inner li {

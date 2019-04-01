@@ -30,6 +30,7 @@ const FirstPage = () => {
                     >
                         <source src={video} type="video/webm" />
                     </video>
+                    <script>document.getElementById('video').play();</script>
                     <div className="devh1">
                         <div className="line1" />
                         <div className="line2" />

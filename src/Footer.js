@@ -10,22 +10,22 @@ const Footer = () => {
                         <ul>
                             <a href="">
                                 {' '}
-                                <li>O Mnie</li>
+                                <li>about</li>
                             </a>
                             <a href="">
                                 {' '}
-                                <li>Technologie</li>
+                                <li>techs</li>
                             </a>
                             <a href="">
                                 {' '}
-                                <li>Projekty</li>
+                                <li>projects</li>
                             </a>
                             <a href="">
                                 {' '}
-                                <li>Kontakt</li>
+                                <li>contact</li>
                             </a>
                             <a href="">
-                                <li>Licencje</li>
+                                <li>licenses</li>
                             </a>
                         </ul>
                     </div>
