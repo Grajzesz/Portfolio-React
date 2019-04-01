@@ -6,13 +6,26 @@ a {
     text-decoration: none;
 }
 
+.full {
+    margin: 1% auto;
+}
+
 .background__video {
     position: relative;
     max-width: 100%;
     // min-height: 100vh;
     background-size: cover;
     min-height: auto;
-    margin-top: 1%;
+    // margin-top: 1%;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 98%;
+    // padding: 2% 0;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+    // flex-direction: column;
 
     .line11 {
         position: absolute;
@@ -88,15 +101,7 @@ a {
 
     }
 
-    margin: 0 auto;
-    width: 100%;
-    min-height: 98%;
-    // padding: 2% 0;
-    display: flex;
-    justify-items: center;
-    align-items: center;
 
-    // flex-direction: column;
 
 
     .devh1 {

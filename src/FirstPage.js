@@ -1,7 +1,7 @@
 // import React, { Component } from 'react';
 import React from 'react';
 // import ReactDOM from 'react-dom'
-import video from '../src/img/marBackground (2) (2).webm';
+import video from '../src/img/marBack.webm';
 
 const FirstPage = () => {
     return (

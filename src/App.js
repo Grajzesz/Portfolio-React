@@ -7,10 +7,10 @@ import '../src/css/main.css'; // Import regular stylesheet
 class App extends Component {
     render() {
         return (
-            <div>
+            <section className="full">
                 <FirstPage />
                 <Footer />
-            </div>
+            </section>
         );
     }
 }
