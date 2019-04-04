@@ -1,7 +1,7 @@
 // import React, { Component } from 'react';
 import React from 'react';
 // import ReactDOM from 'react-dom'
-import video from '../src/img/My Video (1).webm';
+import video from '../src/img/My Video.webm';
 
 const FirstPage = () => {
     return (
@@ -22,6 +22,7 @@ const FirstPage = () => {
                             </ul>
                         </div>
                     </nav>
+                    <div className="background__phone" />
                     <video
                         className="background__video-video"
                         muted=""
@@ -41,7 +42,10 @@ const FirstPage = () => {
                         <div className="line7" />
                         <div className="line8" />
                         <div className="line9" />
-                        <h1>FrontEndDev</h1>
+                        <h1 className="glitch" data-text="FrontEndDev">
+                            FrontEndDev
+                        </h1>
+                        {/* <div class="glitch" data-text="GLITCH">GLITCH</div> */}
                     </div>
                 </div>
             </header>

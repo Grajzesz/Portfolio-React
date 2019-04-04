@@ -6,11 +6,31 @@ a {
     text-decoration: none;
 }
 
+@import "../scss/fontawesome.scss";
+@import "scss/solid.scss";
+$fa-font-path: "../webfonts";
+
+$fontcolore:rgba(255, 255, 255, 0.486);
+$fontcoloremax:rgba(255, 255, 255, 0.897);
+
 .full {
-    margin: 1% auto;
+    margin: 0 auto;
+    height: auto;
+    color: white;
+}
+
+.background__phone {
+
+    height: 100vh;
+    width: 100%;
+    background: url('../img/teteatete.jpg') no-repeat;
+    background-size: cover;
+    background-position: top;
+
 }
 
 .background__video {
+
     position: relative;
     max-width: 100%;
     // min-height: 100vh;
@@ -200,15 +220,15 @@ a {
         font-size: 1.5em;
         font-size-adjust: inherit;
         color: #fff;
-        cursor: pointer;
         z-index: 2;
         font-family: 'Oswald',
         sans-serif;
         letter-spacing: 7px;
+        font-weight: 100;
 
-        &:hover {
-            color: black;
-        }
+
+
+
     }
 
 
@@ -224,6 +244,9 @@ a {
 
     }
 }
+
+
+
 
 .footer__container {
     font-family: 'Oswald',
@@ -314,4 +337,248 @@ a {
     100% {
         height: 100% height;
     }
+}
+
+@mixin textGlitch($name, $intensity, $textColor, $background, $highlightColor1, $highlightColor2, $width, $height) {
+
+    color: $textColor;
+    position: relative;
+    $steps: $intensity;
+
+    // Ensure the @keyframes are generated at the root level
+    @at-root {
+
+        // We need two different ones
+        @for $i from 1 through 2 {
+            @keyframes #{$name}-anim-#{$i} {
+                @for $i from 0 through $steps {
+                    #{percentage($i*(1/$steps))} {
+                        clip: rect(random($height)+px,
+                            $width+px,
+                            random($height)+px,
+                            0);
+                    }
+                }
+            }
+        }
+    }
+
+    &:before,
+    &:after {
+        content: attr(data-text);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: $background;
+        clip: rect(0, 0, 0, 0);
+    }
+
+    &:after {
+        left: 1px;
+        text-shadow: -1px 0 $highlightColor1;
+        animation: #{$name}-anim-1 2s infinite linear alternate-reverse;
+    }
+
+    &:before {
+        left: -1px;
+        text-shadow: 1px 0 $highlightColor2;
+        animation: #{$name}-anim-2 3s infinite linear alternate-reverse;
+    }
+
+}
+
+.glitch {
+    font-size: 21px;
+    @include textGlitch("example-one", 15, rgb(255, 255, 255), transparent, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), 167, 20);
+}
+
+
+@media (min-width: 1000px) {
+    .background__phone {
+        display: none;
+    }
+
+}
+
+
+
+@media (max-width: 1000px) {
+    .background__video-video {
+        display: none;
+
+    }
+
+    .background__video {
+        .devh1 {
+            .line1 {
+                position: absolute;
+                top: -20px;
+                height: 1px;
+                width: 115%;
+                right: -46px;
+                background-color: $fontcoloremax;
+                animation: liney-z 1s linear 1;
+            }
+
+            .line2 {
+                position: absolute;
+                top: -24px;
+                height: 1px;
+                width: 100%;
+                background-color: $fontcoloremax;
+                animation: liney-z 1.5s linear 1;
+
+            }
+
+            .line3 {
+                position: absolute;
+                left: -30px;
+                height: 205%;
+                width: 1px;
+                background-color: $fontcoloremax;
+                animation: liney-y 1.2s linear 1;
+            }
+
+            .line4 {
+                position: absolute;
+                left: -35px;
+                height: 240%;
+                width: 1px;
+                background-color: $fontcoloremax;
+                top: -94%;
+                animation: liney-y 1.4s linear 1;
+            }
+
+            .line5 {
+                bottom: 36%;
+                position: absolute;
+                right: -30px;
+                height: 179%;
+                width: 1px;
+                background-color: $fontcoloremax;
+                animation: liney-y 1s linear 1;
+            }
+
+            .line6 {
+                bottom: -115%;
+                position: absolute;
+                right: -35px;
+                height: 196%;
+                width: 1px;
+                background-color: $fontcoloremax;
+                animation: liney-y 1.1s linear 1;
+            }
+
+            .line7 {
+                bottom: -102%;
+                position: absolute;
+                right: -54px;
+                height: 1px;
+                width: 92%;
+                background-color: $fontcoloremax;
+                animation: liney-z 1.2s linear 1;
+            }
+
+            .line8 {
+                bottom: -79%;
+                position: absolute;
+                right: -40px;
+                height: 1px;
+                width: 40%;
+                background-color: $fontcoloremax;
+                animation: liney-z 1.4s linear 1;
+            }
+
+            .line9 {
+                bottom: -84%;
+                position: absolute;
+                right: 99%;
+                height: 1px;
+                width: 18%;
+                background-color: $fontcoloremax;
+                animation: liney-z 1.1s linear 1;
+            }
+
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            font-size: 1.5em;
+            font-size-adjust: inherit;
+            color: #fff;
+            z-index: 2;
+            font-family: 'Oswald',
+            sans-serif;
+            letter-spacing: 7px;
+            font-weight: 100;
+
+
+
+
+        }
+    }
+
+
+}
+
+.tech__container-inner {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    color: black;
+    font-size: 5em;
+    padding: 5% 0;
+    // .jqueryy{
+    //     @include textGlitch("example-one", 15, rgb(255, 255, 255), transparent, rgb(255, 0, 0), rgb(73, 55, 177), 111, 111);
+    // }
+}
+
+@mixin imageGlitch($name, $intensity, $textColor, $background, $highlightColor1, $highlightColor2, $width, $height) {
+
+    color: $textColor;
+    position: relative;
+    $steps: $intensity;
+
+    // Ensure the @keyframes are generated at the root level
+    @at-root {
+
+        // We need two different ones
+        @for $i from 1 through 2 {
+            @keyframes #{$name}-anim-#{$i} {
+                @for $i from 0 through $steps {
+                    #{percentage($i*(1/$steps))} {
+                        clip: rect(random($height)+px,
+                            $width+px,
+                            random($height)+px,
+                            0);
+                    }
+                }
+            }
+        }
+    }
+
+    &:before,
+    &:after {
+        content: attr(data-text);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url("https://img.icons8.com/ios/50/000000/jquery-filled.png") no-repeat;
+        clip: rect(0, 0, 0, 0);
+    }
+
+    &:after {
+        left: 1px;
+        text-shadow: -1px 0 $highlightColor1;
+        animation: #{$name}-anim-1 2s infinite linear alternate-reverse;
+    }
+
+    &:before {
+        left: -1px;
+        text-shadow: 1px 0 $highlightColor2;
+        animation: #{$name}-anim-2 3s infinite linear alternate-reverse;
+    }
+
 }
