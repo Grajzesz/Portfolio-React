@@ -550,6 +550,37 @@ $fontcoloremax:rgba(255, 255, 255, 0.897);
     }
 }
 
+.school__container {
+    height:auto;
+    width: 100%;
+
+    .school__container-inner {
+        display: flex;
+        justify-content: space-around;
+        height:100%;
+        width: 100%;
+        align-items:center;
+        color:black;
+
+        .school__coders {
+            background: url("../img/10890080.png") no-repeat;
+            background-position: center;
+            background-size: contain;
+            width: 50%;
+            height: 100px;
+
+        }
+
+        .school__alx {
+            background: url("../img/alx.png") no-repeat;
+            background-position: center;
+            background-size: contain;
+            width: 50%;
+            height: 100px;
+        }
+    }
+}
+
 
 
 
@@ -571,7 +602,7 @@ $fontcoloremax:rgba(255, 255, 255, 0.897);
     }
 
     .tech__container-inner {
-        font-size: 1,5em;
+        font-size: 1.5em;
     }
 
     .background__video {
