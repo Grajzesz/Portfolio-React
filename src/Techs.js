@@ -36,12 +36,16 @@ const Techs = () => {
             </div>
             <div className="school__container">
                 <div className="school__container-inner">
-                    <div className="school__coders-main">
-                        <div className="school__coders" />
-                        <div className="school__coders-list" />
-                        <h2 className="school__coders-list-title">
-                            KURS JAVA SCRIPT DEVELOPER REACT
-                        </h2>
+                    <div className="school__coders-logo" />
+                    <div className="school__alx-logo" />
+                </div>
+            </div>
+            <div className="school_container-lists">
+                <div className="school__coders-main">
+                    <h2 className="school__coders-list-title">
+                        KURS JAVA SCRIPT DEVELOPER REACT
+                    </h2>
+                    <div className="school__coders-list">
                         <ul>
                             <li>JavaScript</li>
                             <li>React</li>
@@ -54,21 +58,19 @@ const Techs = () => {
                             <li>RWD</li>
                         </ul>
                     </div>
-                    <div className="school__alx-main">
-                        <div className="school__alx" />
-                        <div className="school__alx-list" />
-                        <h2 className="school__alx-list-title">
-                            TWORZENIE STRON WWW
-                        </h2>
+                </div>
+                <div className="school__alx-main">
+                    <h2 className="school__alx-list-title">
+                        TWORZENIE STRON WWW
+                    </h2>
+                    <div className="school__alx-list">
                         <ul>
-                            <li>HTML i CSS</li>
-                            <li>Przygotowywanie grafiki na potrzeby WWW</li>
-                            <li>Budowanie struktury strony WWW</li>
-                            <li>
-                                Podstawy programowania w JavaScriptprzy pomocy
-                                biblioteki jQuery
-                            </li>
-                            <li>Praca z systemem CMS Wordpress</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Grafika WWW</li>
+                            <li>WWW</li>
+                            <li>jQuery</li>
+                            <li>Wordpress</li>
                         </ul>
                     </div>
                 </div>
