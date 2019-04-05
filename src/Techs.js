@@ -22,16 +22,13 @@ const Techs = () => {
                     <div className="jscripty">
                         <i className="fab fa-js-square" />
                     </div>
-                
-                    <div className="jqueryy">
-                        <img src="https://img.icons8.com/ios/50/000000/jquery-filled.png" />
-                    </div><div className="gity">
-                        <i className="fab fa-git-square" />
-
-                    </div>
                     <div className="nody">
                         <i className="fab fa-node" />
                     </div>
+                    <div className="gity">
+                        <i className="fab fa-git-square" />
+                    </div>
+
                     <div className="wordpressy">
                         <i className="fab fa-wordpress" />
                     </div>
