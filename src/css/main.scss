@@ -394,16 +394,20 @@ $fontcoloremax:rgba(255, 255, 255, 0.897);
 }
 
 
+.tech__container {
+    border: 1px dashed rgba(255, 255, 255, 0.486);
 
-.tech__container-inner {
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    color: black;
-    font-size: 5em;
-    padding: 7% 0;
+    .tech__container-inner {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        color: black;
+        font-size: 5em;
+        padding: 7% 0;
 
+    }
 }
+
 
 @mixin imageGlitch($name, $intensity, $textColor, $background, $highlightColor1, $highlightColor2, $width, $height) {
 
@@ -460,10 +464,22 @@ $fontcoloremax:rgba(255, 255, 255, 0.897);
 @import "../scss/solid.scss";
 @import "../scss/brands.scss";
 
-.htmle {
+
+.htmle,
+.sassy,
+.cssy,
+.reacty,
+.jscripty,
+.nody,
+.gity,
+.wordpressy {
     @extend %fa-icon;
     @extend .fab;
     @include imageGlitch("example-one", 14, rgb(0, 0, 0), transparent, rgb(255, 0, 0), rgb(38, 0, 255), 80, 80);
+}
+
+.htmle {
+
 
     &:before,
     &:after {
@@ -472,9 +488,7 @@ $fontcoloremax:rgba(255, 255, 255, 0.897);
 }
 
 .sassy {
-    @extend %fa-icon;
-    @extend .fab;
-    @include imageGlitch("example-one", 16, rgb(0, 0, 0), transparent, rgb(255, 0, 0), rgb(38, 0, 255), 80, 80);
+
 
     &:before,
     &:after {
@@ -483,9 +497,7 @@ $fontcoloremax:rgba(255, 255, 255, 0.897);
 }
 
 .cssy {
-    @extend %fa-icon;
-    @extend .fab;
-    @include imageGlitch("example-one", 16, rgb(0, 0, 0), transparent, rgb(255, 0, 0), rgb(38, 0, 255), 80, 80);
+
 
     &:before,
     &:after {
@@ -494,9 +506,7 @@ $fontcoloremax:rgba(255, 255, 255, 0.897);
 }
 
 .reacty {
-    @extend %fa-icon;
-    @extend .fab;
-    @include imageGlitch("example-one", 16, rgb(0, 0, 0), transparent, rgb(255, 0, 0), rgb(38, 0, 255), 80, 80);
+
 
     &:before,
     &:after {
@@ -505,9 +515,7 @@ $fontcoloremax:rgba(255, 255, 255, 0.897);
 }
 
 .jscripty {
-    @extend %fa-icon;
-    @extend .fab;
-    @include imageGlitch("example-one", 16, rgb(0, 0, 0), transparent, rgb(255, 0, 0), rgb(38, 0, 255), 80, 80);
+
 
     &:before,
     &:after {
@@ -518,9 +526,7 @@ $fontcoloremax:rgba(255, 255, 255, 0.897);
 
 
 .gity {
-    @extend %fa-icon;
-    @extend .fab;
-    @include imageGlitch("example-one", 16, rgb(0, 0, 0), transparent, rgb(255, 0, 0), rgb(38, 0, 255), 80, 80);
+
 
     &:before,
     &:after {
@@ -529,9 +535,7 @@ $fontcoloremax:rgba(255, 255, 255, 0.897);
 }
 
 .nody {
-    @extend %fa-icon;
-    @extend .fab;
-    @include imageGlitch("example-one", 16, rgb(0, 0, 0), transparent, rgb(255, 0, 0), rgb(38, 0, 255), 80, 80);
+
 
     &:before,
     &:after {
@@ -540,9 +544,7 @@ $fontcoloremax:rgba(255, 255, 255, 0.897);
 }
 
 .wordpressy {
-    @extend %fa-icon;
-    @extend .fab;
-    @include imageGlitch("example-one", 16, rgb(0, 0, 0), transparent, rgb(255, 0, 0), rgb(38, 0, 255), 80, 80);
+
 
     &:before,
     &:after {
@@ -561,7 +563,7 @@ $fontcoloremax:rgba(255, 255, 255, 0.897);
         width: 100%;
         align-items: center;
         color: black;
-        background: #0000009c;
+        // background: #0000009c;
 
         .school__coders-logo {
 
@@ -613,9 +615,71 @@ $fontcoloremax:rgba(255, 255, 255, 0.897);
 
 }
 
+// -------------------------About
+
+.container__about {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    height: 400px;
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 3%;
+
+    .container__about-title {
+        text-align: center;
+        font-size: 3em;
+        padding: 3%;
+    }
+
+    .container__about-inner {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+
+        .about__fast-pic,
+        .about__creative-pic,
+        .about__learning-pic,
+        .about__responsible-pic {
+            font-size: 6em;
+            padding: 1%;
+            color: #FDEC08;
+        }
+
+        .about__fast-title,
+        .about__creative-title,
+        .about__learning-title,
+        .about__responsible-title {
+            font-size: 2em;
+            padding: 1%;
+        }
+
+        .about__fast-text,
+        .about__creative-text,
+        .about__learning-text,
+        .about__responsible-text {
+            font-size: 1em;
+            padding: 1%;
+        }
+
+        .about__fast,
+        .about__creative,
+        .about__learning,
+        .about__responsible {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 1%;
+
+        }
 
 
 
+    }
+}
 
 @media (min-width: 1000px) {
     .background__phone {
@@ -633,8 +697,10 @@ $fontcoloremax:rgba(255, 255, 255, 0.897);
 
     }
 
-    .tech__container-inner {
-        font-size: 2.5em;
+    .tech__container {
+        .tech__container-inner {
+            font-size: 2.5em;
+        }
     }
 
     .background__video {
