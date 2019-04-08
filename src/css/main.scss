@@ -12,6 +12,10 @@ $fa-font-path: "../webfonts";
 
 $fontcolore:rgba(255, 255, 255, 0.486);
 $fontcoloremax:rgba(255, 255, 255, 0.897);
+$color1: #75b1a9;
+$color2:#d9b44a;
+$color3:#4f6457;
+$color4:#acd0c0;
 
 .full {
     margin: 0 auto;
@@ -390,12 +394,42 @@ $fontcoloremax:rgba(255, 255, 255, 0.897);
 
 .glitch {
     font-size: 21px;
-    @include textGlitch("example-one", 15, rgb(255, 255, 255), transparent, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), 167, 20);
+    @include textGlitch("example-one", 15, rgb(255, 255, 255), transparent, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), 170, 20);
 }
 
 
 .tech__container {
     border: 1px dashed rgba(255, 255, 255, 0.486);
+
+    display: flex;
+
+    flex-direction: column;
+    color: #000;
+    /* height: 400px; */
+    /* width: 90%; */
+    padding: 1% 1% 7% 1%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    border-bottom: black 1px dashed;
+
+    .tech__container-title {
+        text-align: left;
+        font-size: 3em;
+        padding: 3%;
+        font-family: 'Righteous', cursive;
+        position: relative;
+        width: 100px;
+
+        color: #000;
+
+        &:before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: $color1;
+        }
+    }
 
     .tech__container-inner {
         display: flex;
@@ -618,18 +652,32 @@ $fontcoloremax:rgba(255, 255, 255, 0.897);
 // -------------------------About
 
 .container__about {
+    // display: flex;
+    // flex-direction: column;
+    // color: #000;
+    // height: 400px;
+    // width: 90%;
+    // padding: 1%;
+    // margin: 0 auto;
+    // margin-bottom: 3%;
+
     display: flex;
+
     flex-direction: column;
     color: #000;
-    height: 400px;
-    width: 100%;
-    padding: 1%;
+    /* height: 400px; */
+
+    padding: 1% 1% 7% 1%;
+    margin: 0 auto;
     margin-bottom: 3%;
+    border-bottom: black 1px dashed;
 
     .container__about-title {
-        text-align: center;
+        text-align: left;
         font-size: 3em;
         padding: 3%;
+        font-family: 'Righteous', cursive;
+        margin: 7% 0;
     }
 
     .container__about-inner {
@@ -638,6 +686,7 @@ $fontcoloremax:rgba(255, 255, 255, 0.897);
         width: 100%;
         justify-content: space-around;
         align-items: center;
+        font-family: 'Righteous', cursive;
 
         .about__fast-pic,
         .about__creative-pic,
@@ -645,7 +694,7 @@ $fontcoloremax:rgba(255, 255, 255, 0.897);
         .about__responsible-pic {
             font-size: 6em;
             padding: 1%;
-            color: #FDEC08;
+            color: $color1;
         }
 
         .about__fast-title,
@@ -654,6 +703,7 @@ $fontcoloremax:rgba(255, 255, 255, 0.897);
         .about__responsible-title {
             font-size: 2em;
             padding: 1%;
+            color: $color3;
         }
 
         .about__fast-text,

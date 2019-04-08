@@ -5,6 +5,7 @@ const Techs = () => {
     return (
         <section>
             <div className="tech__container">
+                <h2 className="tech__container-title">Techs</h2>
                 <div className="tech__container-inner">
                     <div className="htmle">
                         <i className="fab fa-html5" />
@@ -34,7 +35,6 @@ const Techs = () => {
                     </div>
                 </div>
             </div>
-           
         </section>
     );
 };
