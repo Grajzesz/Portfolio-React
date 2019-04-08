@@ -6118,205 +6118,205 @@ readers do not read off random characters that represent icons */
 
 @-webkit-keyframes example-one-anim-1 {
   0% {
-    clip: rect(14px, 170px, 18px, 0);
+    clip: rect(17px, 170px, 8px, 0);
   }
   6.66667% {
-    clip: rect(9px, 170px, 6px, 0);
+    clip: rect(2px, 170px, 9px, 0);
   }
   13.33333% {
-    clip: rect(12px, 170px, 9px, 0);
+    clip: rect(18px, 170px, 6px, 0);
   }
   20% {
-    clip: rect(4px, 170px, 1px, 0);
+    clip: rect(9px, 170px, 12px, 0);
   }
   26.66667% {
-    clip: rect(8px, 170px, 10px, 0);
+    clip: rect(16px, 170px, 1px, 0);
   }
   33.33333% {
-    clip: rect(12px, 170px, 10px, 0);
-  }
-  40% {
-    clip: rect(3px, 170px, 5px, 0);
-  }
-  46.66667% {
-    clip: rect(2px, 170px, 7px, 0);
-  }
-  53.33333% {
-    clip: rect(1px, 170px, 6px, 0);
-  }
-  60% {
-    clip: rect(9px, 170px, 13px, 0);
-  }
-  66.66667% {
-    clip: rect(4px, 170px, 14px, 0);
-  }
-  73.33333% {
-    clip: rect(9px, 170px, 10px, 0);
-  }
-  80% {
     clip: rect(19px, 170px, 11px, 0);
   }
+  40% {
+    clip: rect(14px, 170px, 2px, 0);
+  }
+  46.66667% {
+    clip: rect(8px, 170px, 7px, 0);
+  }
+  53.33333% {
+    clip: rect(10px, 170px, 7px, 0);
+  }
+  60% {
+    clip: rect(20px, 170px, 19px, 0);
+  }
+  66.66667% {
+    clip: rect(19px, 170px, 11px, 0);
+  }
+  73.33333% {
+    clip: rect(3px, 170px, 13px, 0);
+  }
+  80% {
+    clip: rect(20px, 170px, 1px, 0);
+  }
   86.66667% {
-    clip: rect(8px, 170px, 13px, 0);
+    clip: rect(8px, 170px, 4px, 0);
   }
   93.33333% {
-    clip: rect(8px, 170px, 13px, 0);
+    clip: rect(14px, 170px, 18px, 0);
   }
   100% {
-    clip: rect(14px, 170px, 17px, 0);
+    clip: rect(17px, 170px, 14px, 0);
   }
 }
 
 @keyframes example-one-anim-1 {
   0% {
-    clip: rect(14px, 170px, 18px, 0);
+    clip: rect(17px, 170px, 8px, 0);
   }
   6.66667% {
-    clip: rect(9px, 170px, 6px, 0);
+    clip: rect(2px, 170px, 9px, 0);
   }
   13.33333% {
-    clip: rect(12px, 170px, 9px, 0);
+    clip: rect(18px, 170px, 6px, 0);
   }
   20% {
-    clip: rect(4px, 170px, 1px, 0);
+    clip: rect(9px, 170px, 12px, 0);
   }
   26.66667% {
-    clip: rect(8px, 170px, 10px, 0);
+    clip: rect(16px, 170px, 1px, 0);
   }
   33.33333% {
-    clip: rect(12px, 170px, 10px, 0);
-  }
-  40% {
-    clip: rect(3px, 170px, 5px, 0);
-  }
-  46.66667% {
-    clip: rect(2px, 170px, 7px, 0);
-  }
-  53.33333% {
-    clip: rect(1px, 170px, 6px, 0);
-  }
-  60% {
-    clip: rect(9px, 170px, 13px, 0);
-  }
-  66.66667% {
-    clip: rect(4px, 170px, 14px, 0);
-  }
-  73.33333% {
-    clip: rect(9px, 170px, 10px, 0);
-  }
-  80% {
     clip: rect(19px, 170px, 11px, 0);
   }
+  40% {
+    clip: rect(14px, 170px, 2px, 0);
+  }
+  46.66667% {
+    clip: rect(8px, 170px, 7px, 0);
+  }
+  53.33333% {
+    clip: rect(10px, 170px, 7px, 0);
+  }
+  60% {
+    clip: rect(20px, 170px, 19px, 0);
+  }
+  66.66667% {
+    clip: rect(19px, 170px, 11px, 0);
+  }
+  73.33333% {
+    clip: rect(3px, 170px, 13px, 0);
+  }
+  80% {
+    clip: rect(20px, 170px, 1px, 0);
+  }
   86.66667% {
-    clip: rect(8px, 170px, 13px, 0);
+    clip: rect(8px, 170px, 4px, 0);
   }
   93.33333% {
-    clip: rect(8px, 170px, 13px, 0);
+    clip: rect(14px, 170px, 18px, 0);
   }
   100% {
-    clip: rect(14px, 170px, 17px, 0);
+    clip: rect(17px, 170px, 14px, 0);
   }
 }
 
 @-webkit-keyframes example-one-anim-2 {
   0% {
-    clip: rect(18px, 170px, 5px, 0);
+    clip: rect(19px, 170px, 9px, 0);
   }
   6.66667% {
-    clip: rect(13px, 170px, 14px, 0);
+    clip: rect(11px, 170px, 5px, 0);
   }
   13.33333% {
-    clip: rect(9px, 170px, 8px, 0);
+    clip: rect(8px, 170px, 7px, 0);
   }
   20% {
-    clip: rect(3px, 170px, 5px, 0);
+    clip: rect(5px, 170px, 15px, 0);
   }
   26.66667% {
-    clip: rect(7px, 170px, 18px, 0);
+    clip: rect(11px, 170px, 3px, 0);
   }
   33.33333% {
-    clip: rect(17px, 170px, 9px, 0);
+    clip: rect(3px, 170px, 4px, 0);
   }
   40% {
-    clip: rect(13px, 170px, 14px, 0);
+    clip: rect(2px, 170px, 16px, 0);
   }
   46.66667% {
-    clip: rect(1px, 170px, 15px, 0);
+    clip: rect(5px, 170px, 9px, 0);
   }
   53.33333% {
-    clip: rect(2px, 170px, 14px, 0);
+    clip: rect(19px, 170px, 4px, 0);
   }
   60% {
-    clip: rect(8px, 170px, 17px, 0);
+    clip: rect(9px, 170px, 17px, 0);
   }
   66.66667% {
-    clip: rect(18px, 170px, 15px, 0);
+    clip: rect(11px, 170px, 1px, 0);
   }
   73.33333% {
-    clip: rect(11px, 170px, 8px, 0);
+    clip: rect(12px, 170px, 3px, 0);
   }
   80% {
-    clip: rect(5px, 170px, 8px, 0);
+    clip: rect(12px, 170px, 6px, 0);
   }
   86.66667% {
-    clip: rect(5px, 170px, 16px, 0);
+    clip: rect(10px, 170px, 7px, 0);
   }
   93.33333% {
-    clip: rect(4px, 170px, 15px, 0);
+    clip: rect(6px, 170px, 12px, 0);
   }
   100% {
-    clip: rect(5px, 170px, 16px, 0);
+    clip: rect(15px, 170px, 12px, 0);
   }
 }
 
 @keyframes example-one-anim-2 {
   0% {
-    clip: rect(18px, 170px, 5px, 0);
+    clip: rect(19px, 170px, 9px, 0);
   }
   6.66667% {
-    clip: rect(13px, 170px, 14px, 0);
+    clip: rect(11px, 170px, 5px, 0);
   }
   13.33333% {
-    clip: rect(9px, 170px, 8px, 0);
+    clip: rect(8px, 170px, 7px, 0);
   }
   20% {
-    clip: rect(3px, 170px, 5px, 0);
+    clip: rect(5px, 170px, 15px, 0);
   }
   26.66667% {
-    clip: rect(7px, 170px, 18px, 0);
+    clip: rect(11px, 170px, 3px, 0);
   }
   33.33333% {
-    clip: rect(17px, 170px, 9px, 0);
+    clip: rect(3px, 170px, 4px, 0);
   }
   40% {
-    clip: rect(13px, 170px, 14px, 0);
+    clip: rect(2px, 170px, 16px, 0);
   }
   46.66667% {
-    clip: rect(1px, 170px, 15px, 0);
+    clip: rect(5px, 170px, 9px, 0);
   }
   53.33333% {
-    clip: rect(2px, 170px, 14px, 0);
+    clip: rect(19px, 170px, 4px, 0);
   }
   60% {
-    clip: rect(8px, 170px, 17px, 0);
+    clip: rect(9px, 170px, 17px, 0);
   }
   66.66667% {
-    clip: rect(18px, 170px, 15px, 0);
+    clip: rect(11px, 170px, 1px, 0);
   }
   73.33333% {
-    clip: rect(11px, 170px, 8px, 0);
+    clip: rect(12px, 170px, 3px, 0);
   }
   80% {
-    clip: rect(5px, 170px, 8px, 0);
+    clip: rect(12px, 170px, 6px, 0);
   }
   86.66667% {
-    clip: rect(5px, 170px, 16px, 0);
+    clip: rect(10px, 170px, 7px, 0);
   }
   93.33333% {
-    clip: rect(4px, 170px, 15px, 0);
+    clip: rect(6px, 170px, 12px, 0);
   }
   100% {
-    clip: rect(5px, 170px, 16px, 0);
+    clip: rect(15px, 170px, 12px, 0);
   }
 }
 
@@ -6351,10 +6351,10 @@ readers do not read off random characters that represent icons */
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: #000;
+  color: red;
   /* height: 400px; */
   /* width: 90%; */
-  padding: 1% 1% 7% 1%;
+  padding: 1% 1% 10% 1%;
   margin: 0 auto;
   margin-bottom: 3%;
   border-bottom: black 1px dashed;
@@ -6362,20 +6362,29 @@ readers do not read off random characters that represent icons */
 
 .tech__container .tech__container-title {
   text-align: left;
-  font-size: 3em;
-  padding: 3%;
+  font-size: 2em;
   font-family: 'Righteous', cursive;
   position: relative;
   width: 100px;
+  z-index: 1;
+  margin-bottom: 3%;
   color: #000;
+}
+
+@media (min-width: 1000px) {
+  .tech__container .tech__container-title {
+    font-size: 3em;
+  }
 }
 
 .tech__container .tech__container-title:before {
   content: "";
   position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #75b1a9;
+  top: 50%;
+  width: 200%;
+  height: 50%;
+  background-color: #d9b44a;
+  z-index: -1;
 }
 
 .tech__container .tech__container-inner {
@@ -6388,7 +6397,6 @@ readers do not read off random characters that represent icons */
       align-content: center;
   color: black;
   font-size: 5em;
-  padding: 7% 0;
 }
 
 /*!
@@ -12180,103 +12188,103 @@ readers do not read off random characters that represent icons */
 .nody,
 .gity,
 .wordpressy {
-  color: black;
+  color: #4f6457;
   position: relative;
 }
 
 @keyframes example-one-anim-1 {
   0% {
-    clip: rect(64px, 80px, 53px, 0);
+    clip: rect(57px, 80px, 5px, 0);
   }
   7.14286% {
-    clip: rect(47px, 80px, 55px, 0);
+    clip: rect(71px, 80px, 21px, 0);
   }
   14.28571% {
-    clip: rect(36px, 80px, 69px, 0);
+    clip: rect(50px, 80px, 18px, 0);
   }
   21.42857% {
-    clip: rect(12px, 80px, 25px, 0);
+    clip: rect(78px, 80px, 48px, 0);
   }
   28.57143% {
-    clip: rect(17px, 80px, 53px, 0);
+    clip: rect(9px, 80px, 14px, 0);
   }
   35.71429% {
-    clip: rect(74px, 80px, 10px, 0);
+    clip: rect(31px, 80px, 12px, 0);
   }
   42.85714% {
-    clip: rect(48px, 80px, 46px, 0);
+    clip: rect(30px, 80px, 38px, 0);
   }
   50% {
-    clip: rect(45px, 80px, 7px, 0);
+    clip: rect(12px, 80px, 65px, 0);
   }
   57.14286% {
-    clip: rect(13px, 80px, 49px, 0);
+    clip: rect(57px, 80px, 79px, 0);
   }
   64.28571% {
-    clip: rect(30px, 80px, 61px, 0);
+    clip: rect(27px, 80px, 11px, 0);
   }
   71.42857% {
-    clip: rect(5px, 80px, 15px, 0);
+    clip: rect(62px, 80px, 8px, 0);
   }
   78.57143% {
-    clip: rect(17px, 80px, 49px, 0);
+    clip: rect(67px, 80px, 56px, 0);
   }
   85.71429% {
-    clip: rect(17px, 80px, 15px, 0);
+    clip: rect(27px, 80px, 49px, 0);
   }
   92.85714% {
-    clip: rect(9px, 80px, 32px, 0);
+    clip: rect(5px, 80px, 20px, 0);
   }
   100% {
-    clip: rect(46px, 80px, 26px, 0);
+    clip: rect(79px, 80px, 33px, 0);
   }
 }
 
 @keyframes example-one-anim-2 {
   0% {
-    clip: rect(40px, 80px, 37px, 0);
+    clip: rect(10px, 80px, 8px, 0);
   }
   7.14286% {
-    clip: rect(16px, 80px, 44px, 0);
+    clip: rect(61px, 80px, 29px, 0);
   }
   14.28571% {
-    clip: rect(36px, 80px, 79px, 0);
+    clip: rect(57px, 80px, 25px, 0);
   }
   21.42857% {
-    clip: rect(41px, 80px, 8px, 0);
+    clip: rect(25px, 80px, 18px, 0);
   }
   28.57143% {
-    clip: rect(62px, 80px, 9px, 0);
+    clip: rect(27px, 80px, 43px, 0);
   }
   35.71429% {
-    clip: rect(43px, 80px, 35px, 0);
+    clip: rect(66px, 80px, 44px, 0);
   }
   42.85714% {
-    clip: rect(48px, 80px, 23px, 0);
+    clip: rect(21px, 80px, 12px, 0);
   }
   50% {
-    clip: rect(72px, 80px, 24px, 0);
+    clip: rect(2px, 80px, 63px, 0);
   }
   57.14286% {
-    clip: rect(60px, 80px, 61px, 0);
+    clip: rect(9px, 80px, 58px, 0);
   }
   64.28571% {
-    clip: rect(5px, 80px, 65px, 0);
+    clip: rect(68px, 80px, 22px, 0);
   }
   71.42857% {
-    clip: rect(22px, 80px, 26px, 0);
+    clip: rect(46px, 80px, 56px, 0);
   }
   78.57143% {
-    clip: rect(47px, 80px, 61px, 0);
+    clip: rect(70px, 80px, 8px, 0);
   }
   85.71429% {
-    clip: rect(33px, 80px, 11px, 0);
+    clip: rect(8px, 80px, 74px, 0);
   }
   92.85714% {
-    clip: rect(25px, 80px, 47px, 0);
+    clip: rect(69px, 80px, 66px, 0);
   }
   100% {
-    clip: rect(42px, 80px, 26px, 0);
+    clip: rect(10px, 80px, 22px, 0);
   }
 }
 
@@ -12364,6 +12372,34 @@ readers do not read off random characters that represent icons */
 .school__container {
   height: auto;
   width: 100%;
+  padding: 1% 1% 1% 1%;
+}
+
+.school__container .school__container-title {
+  text-align: left;
+  font-size: 2em;
+  font-family: 'Righteous', cursive;
+  position: relative;
+  width: 100px;
+  z-index: 1;
+  margin-bottom: 3%;
+  color: #000;
+}
+
+@media (min-width: 1000px) {
+  .school__container .school__container-title {
+    font-size: 3em;
+  }
+}
+
+.school__container .school__container-title:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 200%;
+  height: 50%;
+  background-color: #d9b44a;
+  z-index: -1;
 }
 
 .school__container .school__container-inner {
@@ -12433,16 +12469,33 @@ readers do not read off random characters that represent icons */
   /* height: 400px; */
   padding: 1% 1% 7% 1%;
   margin: 0 auto;
-  margin-bottom: 3%;
   border-bottom: black 1px dashed;
 }
 
 .container__about .container__about-title {
   text-align: left;
-  font-size: 3em;
-  padding: 3%;
+  font-size: 2em;
   font-family: 'Righteous', cursive;
-  margin: 7% 0;
+  position: relative;
+  width: 100px;
+  z-index: 1;
+  margin-bottom: 3%;
+}
+
+@media (min-width: 1000px) {
+  .container__about .container__about-title {
+    font-size: 3em;
+  }
+}
+
+.container__about .container__about-title:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 200%;
+  height: 50%;
+  background-color: #d9b44a;
+  z-index: -1;
 }
 
 .container__about .container__about-inner {
@@ -12463,26 +12516,53 @@ readers do not read off random characters that represent icons */
 .container__about .container__about-inner .about__creative-pic,
 .container__about .container__about-inner .about__learning-pic,
 .container__about .container__about-inner .about__responsible-pic {
-  font-size: 6em;
+  font-size: 2.5em;
   padding: 1%;
-  color: #75b1a9;
+  color: #4f6457;
+}
+
+@media (min-width: 1000px) {
+  .container__about .container__about-inner .about__fast-pic,
+  .container__about .container__about-inner .about__creative-pic,
+  .container__about .container__about-inner .about__learning-pic,
+  .container__about .container__about-inner .about__responsible-pic {
+    font-size: 6em;
+  }
 }
 
 .container__about .container__about-inner .about__fast-title,
 .container__about .container__about-inner .about__creative-title,
 .container__about .container__about-inner .about__learning-title,
 .container__about .container__about-inner .about__responsible-title {
-  font-size: 2em;
+  font-size: 1em;
   padding: 1%;
   color: #4f6457;
+}
+
+@media (min-width: 1000px) {
+  .container__about .container__about-inner .about__fast-title,
+  .container__about .container__about-inner .about__creative-title,
+  .container__about .container__about-inner .about__learning-title,
+  .container__about .container__about-inner .about__responsible-title {
+    font-size: 2em;
+  }
 }
 
 .container__about .container__about-inner .about__fast-text,
 .container__about .container__about-inner .about__creative-text,
 .container__about .container__about-inner .about__learning-text,
 .container__about .container__about-inner .about__responsible-text {
-  font-size: 1em;
+  font-size: 0.7em;
   padding: 1%;
+}
+
+@media (min-width: 1000px) {
+  .container__about .container__about-inner .about__fast-text,
+  .container__about .container__about-inner .about__creative-text,
+  .container__about .container__about-inner .about__learning-text,
+  .container__about .container__about-inner .about__responsible-text {
+    font-size: 1em;
+  }
 }
 
 .container__about .container__about-inner .about__fast,
@@ -12501,6 +12581,26 @@ readers do not read off random characters that represent icons */
           flex-direction: column;
   text-align: center;
   padding: 1%;
+}
+
+.about__text-main {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 1% 7% 1%;
+  margin: 0 auto;
+  margin-bottom: 3%;
+  border-bottom: black 1px dashed;
+  background: url(../img/mariusz.jpeg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+.about__text-text {
+  z-index: 2;
 }
 
 @media (min-width: 1000px) {
@@ -12616,6 +12716,15 @@ readers do not read off random characters that represent icons */
     background-color: rgba(255, 255, 255, 0.897);
     -webkit-animation: liney-z 1.1s linear 1;
             animation: liney-z 1.1s linear 1;
+  }
+}
+
+@media (max-width: 1000px) {
+  .tech__container,
+  .school__container,
+  .container__about,
+  .about__text-main {
+    min-height: 80vh;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -4,7 +4,7 @@ import React from 'react';
 const Schools = () => {
     return (
         <section>
-            <div className="school__container">
+            <div className="school__container"> <h2 className="school__container-title">Education</h2>
                 <div className="school__container-inner">
                     <div className="school__coders-logo" />
                     <div className="school__alx-logo" />

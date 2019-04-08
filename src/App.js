@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import FirstPage from './FirstPage';
 import About from './About';
+import AboutText from './AboutText';
 import Footer from './Footer';
 import Techs from './Techs';
 import Schools from './Schools';
@@ -13,6 +14,7 @@ class App extends Component {
             <section className="full">
                 <FirstPage />
                 <About />
+                <AboutText/>
                 <Techs />
                 <Schools />
                 <Footer />

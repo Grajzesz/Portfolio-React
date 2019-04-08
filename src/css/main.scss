@@ -404,30 +404,39 @@ $color4:#acd0c0;
     display: flex;
 
     flex-direction: column;
-    color: #000;
+    color: rgb(255, 0, 0);
     /* height: 400px; */
     /* width: 90%; */
-    padding: 1% 1% 7% 1%;
+    padding: 1% 1% 10% 1%;
     margin: 0 auto;
     margin-bottom: 3%;
     border-bottom: black 1px dashed;
 
     .tech__container-title {
         text-align: left;
-        font-size: 3em;
-        padding: 3%;
+        font-size: 2em;
+        // padding: 3%;
         font-family: 'Righteous', cursive;
         position: relative;
         width: 100px;
+        z-index: 1;
+        margin-bottom: 3%;
 
         color: #000;
+
+        @media (min-width: 1000px) {
+            font-size: 3em;
+        }
 
         &:before {
             content: "";
             position: absolute;
-            width: 100%;
-            height: 100%;
-            background-color: $color1;
+            top: 50%;
+            width: 200%;
+            height: 50%;
+            background-color: $color2;
+            z-index: -1;
+
         }
     }
 
@@ -437,7 +446,7 @@ $color4:#acd0c0;
         align-content: center;
         color: black;
         font-size: 5em;
-        padding: 7% 0;
+        // padding: 7% 0;
 
     }
 }
@@ -509,7 +518,7 @@ $color4:#acd0c0;
 .wordpressy {
     @extend %fa-icon;
     @extend .fab;
-    @include imageGlitch("example-one", 14, rgb(0, 0, 0), transparent, rgb(255, 0, 0), rgb(38, 0, 255), 80, 80);
+    @include imageGlitch("example-one", 14, $color3, transparent, rgb(255, 0, 0), rgb(38, 0, 255), 80, 80);
 }
 
 .htmle {
@@ -589,6 +598,35 @@ $color4:#acd0c0;
 .school__container {
     height: auto;
     width: 100%;
+    padding: 1% 1% 1% 1%;
+
+    .school__container-title {
+        text-align: left;
+        font-size: 2em;
+        // padding: 3%;
+        font-family: 'Righteous', cursive;
+        // margin: 7% 0;
+        position: relative;
+        width: 100px;
+        z-index: 1;
+        margin-bottom: 3%;
+        color: #000;
+
+        @media (min-width: 1000px) {
+            font-size: 3em;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 200%;
+            height: 50%;
+            background-color: $color2;
+            z-index: -1;
+
+        }
+    }
 
     .school__container-inner {
         display: flex;
@@ -669,15 +707,34 @@ $color4:#acd0c0;
 
     padding: 1% 1% 7% 1%;
     margin: 0 auto;
-    margin-bottom: 3%;
+    // margin-bottom: 3%;
     border-bottom: black 1px dashed;
 
     .container__about-title {
         text-align: left;
-        font-size: 3em;
-        padding: 3%;
+        font-size: 2em;
+        // padding: 3%;
         font-family: 'Righteous', cursive;
-        margin: 7% 0;
+        // margin: 7% 0;
+        position: relative;
+        width: 100px;
+        z-index: 1;
+        margin-bottom: 3%;
+
+        @media (min-width: 1000px) {
+            font-size: 3em;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 200%;
+            height: 50%;
+            background-color: $color2;
+            z-index: -1;
+
+        }
     }
 
     .container__about-inner {
@@ -692,26 +749,40 @@ $color4:#acd0c0;
         .about__creative-pic,
         .about__learning-pic,
         .about__responsible-pic {
-            font-size: 6em;
+            font-size: 2.5em;
             padding: 1%;
-            color: $color1;
+            color: $color3;
+
+            @media (min-width: 1000px) {
+                font-size: 6em;
+            }
         }
 
         .about__fast-title,
         .about__creative-title,
         .about__learning-title,
         .about__responsible-title {
-            font-size: 2em;
+            // position: absolute;
+            // top: 0;
+            font-size: 1em;
             padding: 1%;
             color: $color3;
+
+            @media (min-width: 1000px) {
+                font-size: 2em;
+            }
         }
 
         .about__fast-text,
         .about__creative-text,
         .about__learning-text,
         .about__responsible-text {
-            font-size: 1em;
+            font-size: 0.7em;
             padding: 1%;
+
+            @media (min-width: 1000px) {
+                font-size: 1em;
+            }
         }
 
         .about__fast,
@@ -723,12 +794,38 @@ $color4:#acd0c0;
             flex-direction: column;
             text-align: center;
             padding: 1%;
+            // position: relative;
 
         }
 
 
 
     }
+}
+
+.about__text-main {
+    color: #000;
+    display: flex;
+    padding: 0 1% 7% 1%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    border-bottom: black 1px dashed;
+    background: url(../img/mariusz.jpeg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    // opacity: 0.3;
+    height: 400px;
+
+}
+
+.about__text-picture {
+    // background: url(../img/P3272777-01.jpeg) no-repeat center;
+
+}
+
+.about__text-text {
+    z-index: 2;
 }
 
 @media (min-width: 1000px) {
@@ -858,6 +955,18 @@ $color4:#acd0c0;
 
         }
     }
+
+
+}
+
+.tech__container,
+.school__container,
+.container__about,
+.about__text-main {
+    @media (max-width: 1000px) {
+        min-height: 80vh;
+
+        }
 
 
 }

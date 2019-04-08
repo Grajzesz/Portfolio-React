@@ -16,8 +16,8 @@ const About = () => {
                         </div>
                         <div className="about__fast-text">
                             <p>
-                                Fast load times and lag free interaction, my
-                                highest priority.
+                            Websites don't have to be static, I love making
+                                pages come to life.
                             </p>
                         </div>
                     </div>
