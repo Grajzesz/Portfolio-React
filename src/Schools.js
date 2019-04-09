@@ -3,7 +3,7 @@ import React from 'react';
 // import ReactDOM from 'react-dom';
 const Schools = () => {
     return (
-        <section>
+        <section className="schools">
             <div className="school__container"> <h2 className="school__container-title">Education</h2>
                 <div className="school__container-inner">
                     <div className="school__coders-logo" />

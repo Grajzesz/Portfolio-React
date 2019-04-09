@@ -5,6 +5,8 @@ import AboutText from './AboutText';
 import Footer from './Footer';
 import Techs from './Techs';
 import Schools from './Schools';
+import Projects from './Projects';
+import Contact from './Contact';
 import '../src/css/reset.css';
 import '../src/css/main.css';
 
@@ -14,9 +16,11 @@ class App extends Component {
             <section className="full">
                 <FirstPage />
                 <About />
-                <AboutText/>
+                <AboutText />
                 <Techs />
                 <Schools />
+                <Projects />
+                <Contact />
                 <Footer />
             </section>
         );

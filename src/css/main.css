@@ -6118,205 +6118,205 @@ readers do not read off random characters that represent icons */
 
 @-webkit-keyframes example-one-anim-1 {
   0% {
-    clip: rect(7px, 170px, 12px, 0);
+    clip: rect(12px, 170px, 15px, 0);
   }
   6.66667% {
-    clip: rect(5px, 170px, 11px, 0);
+    clip: rect(8px, 170px, 12px, 0);
   }
   13.33333% {
-    clip: rect(1px, 170px, 11px, 0);
+    clip: rect(14px, 170px, 18px, 0);
   }
   20% {
-    clip: rect(12px, 170px, 2px, 0);
+    clip: rect(17px, 170px, 3px, 0);
   }
   26.66667% {
-    clip: rect(18px, 170px, 10px, 0);
+    clip: rect(4px, 170px, 15px, 0);
   }
   33.33333% {
-    clip: rect(3px, 170px, 10px, 0);
+    clip: rect(13px, 170px, 13px, 0);
   }
   40% {
-    clip: rect(18px, 170px, 16px, 0);
+    clip: rect(12px, 170px, 14px, 0);
   }
   46.66667% {
-    clip: rect(4px, 170px, 19px, 0);
+    clip: rect(19px, 170px, 7px, 0);
   }
   53.33333% {
-    clip: rect(20px, 170px, 19px, 0);
+    clip: rect(10px, 170px, 2px, 0);
   }
   60% {
-    clip: rect(18px, 170px, 6px, 0);
+    clip: rect(6px, 170px, 3px, 0);
   }
   66.66667% {
-    clip: rect(13px, 170px, 18px, 0);
+    clip: rect(4px, 170px, 14px, 0);
   }
   73.33333% {
-    clip: rect(12px, 170px, 20px, 0);
+    clip: rect(5px, 170px, 7px, 0);
   }
   80% {
-    clip: rect(11px, 170px, 5px, 0);
+    clip: rect(4px, 170px, 15px, 0);
   }
   86.66667% {
-    clip: rect(8px, 170px, 13px, 0);
+    clip: rect(12px, 170px, 6px, 0);
   }
   93.33333% {
-    clip: rect(18px, 170px, 14px, 0);
+    clip: rect(8px, 170px, 17px, 0);
   }
   100% {
-    clip: rect(8px, 170px, 12px, 0);
+    clip: rect(13px, 170px, 11px, 0);
   }
 }
 
 @keyframes example-one-anim-1 {
   0% {
-    clip: rect(7px, 170px, 12px, 0);
+    clip: rect(12px, 170px, 15px, 0);
   }
   6.66667% {
-    clip: rect(5px, 170px, 11px, 0);
+    clip: rect(8px, 170px, 12px, 0);
   }
   13.33333% {
-    clip: rect(1px, 170px, 11px, 0);
+    clip: rect(14px, 170px, 18px, 0);
   }
   20% {
-    clip: rect(12px, 170px, 2px, 0);
+    clip: rect(17px, 170px, 3px, 0);
   }
   26.66667% {
-    clip: rect(18px, 170px, 10px, 0);
+    clip: rect(4px, 170px, 15px, 0);
   }
   33.33333% {
-    clip: rect(3px, 170px, 10px, 0);
+    clip: rect(13px, 170px, 13px, 0);
   }
   40% {
-    clip: rect(18px, 170px, 16px, 0);
+    clip: rect(12px, 170px, 14px, 0);
   }
   46.66667% {
-    clip: rect(4px, 170px, 19px, 0);
+    clip: rect(19px, 170px, 7px, 0);
   }
   53.33333% {
-    clip: rect(20px, 170px, 19px, 0);
+    clip: rect(10px, 170px, 2px, 0);
   }
   60% {
-    clip: rect(18px, 170px, 6px, 0);
+    clip: rect(6px, 170px, 3px, 0);
   }
   66.66667% {
-    clip: rect(13px, 170px, 18px, 0);
+    clip: rect(4px, 170px, 14px, 0);
   }
   73.33333% {
-    clip: rect(12px, 170px, 20px, 0);
+    clip: rect(5px, 170px, 7px, 0);
   }
   80% {
-    clip: rect(11px, 170px, 5px, 0);
+    clip: rect(4px, 170px, 15px, 0);
   }
   86.66667% {
-    clip: rect(8px, 170px, 13px, 0);
+    clip: rect(12px, 170px, 6px, 0);
   }
   93.33333% {
-    clip: rect(18px, 170px, 14px, 0);
+    clip: rect(8px, 170px, 17px, 0);
   }
   100% {
-    clip: rect(8px, 170px, 12px, 0);
+    clip: rect(13px, 170px, 11px, 0);
   }
 }
 
 @-webkit-keyframes example-one-anim-2 {
   0% {
-    clip: rect(13px, 170px, 14px, 0);
+    clip: rect(19px, 170px, 10px, 0);
   }
   6.66667% {
-    clip: rect(12px, 170px, 19px, 0);
+    clip: rect(6px, 170px, 11px, 0);
   }
   13.33333% {
-    clip: rect(9px, 170px, 8px, 0);
+    clip: rect(14px, 170px, 15px, 0);
   }
   20% {
-    clip: rect(4px, 170px, 6px, 0);
+    clip: rect(5px, 170px, 17px, 0);
   }
   26.66667% {
-    clip: rect(7px, 170px, 13px, 0);
+    clip: rect(6px, 170px, 9px, 0);
   }
   33.33333% {
-    clip: rect(10px, 170px, 20px, 0);
+    clip: rect(1px, 170px, 3px, 0);
   }
   40% {
-    clip: rect(16px, 170px, 10px, 0);
+    clip: rect(18px, 170px, 14px, 0);
   }
   46.66667% {
-    clip: rect(3px, 170px, 20px, 0);
+    clip: rect(2px, 170px, 6px, 0);
   }
   53.33333% {
-    clip: rect(10px, 170px, 14px, 0);
+    clip: rect(2px, 170px, 16px, 0);
   }
   60% {
-    clip: rect(7px, 170px, 12px, 0);
+    clip: rect(15px, 170px, 11px, 0);
   }
   66.66667% {
-    clip: rect(20px, 170px, 13px, 0);
+    clip: rect(11px, 170px, 17px, 0);
   }
   73.33333% {
-    clip: rect(10px, 170px, 15px, 0);
+    clip: rect(17px, 170px, 15px, 0);
   }
   80% {
-    clip: rect(20px, 170px, 5px, 0);
+    clip: rect(19px, 170px, 11px, 0);
   }
   86.66667% {
-    clip: rect(1px, 170px, 14px, 0);
+    clip: rect(2px, 170px, 5px, 0);
   }
   93.33333% {
-    clip: rect(11px, 170px, 18px, 0);
+    clip: rect(6px, 170px, 2px, 0);
   }
   100% {
-    clip: rect(3px, 170px, 18px, 0);
+    clip: rect(12px, 170px, 11px, 0);
   }
 }
 
 @keyframes example-one-anim-2 {
   0% {
-    clip: rect(13px, 170px, 14px, 0);
+    clip: rect(19px, 170px, 10px, 0);
   }
   6.66667% {
-    clip: rect(12px, 170px, 19px, 0);
+    clip: rect(6px, 170px, 11px, 0);
   }
   13.33333% {
-    clip: rect(9px, 170px, 8px, 0);
+    clip: rect(14px, 170px, 15px, 0);
   }
   20% {
-    clip: rect(4px, 170px, 6px, 0);
+    clip: rect(5px, 170px, 17px, 0);
   }
   26.66667% {
-    clip: rect(7px, 170px, 13px, 0);
+    clip: rect(6px, 170px, 9px, 0);
   }
   33.33333% {
-    clip: rect(10px, 170px, 20px, 0);
+    clip: rect(1px, 170px, 3px, 0);
   }
   40% {
-    clip: rect(16px, 170px, 10px, 0);
+    clip: rect(18px, 170px, 14px, 0);
   }
   46.66667% {
-    clip: rect(3px, 170px, 20px, 0);
+    clip: rect(2px, 170px, 6px, 0);
   }
   53.33333% {
-    clip: rect(10px, 170px, 14px, 0);
+    clip: rect(2px, 170px, 16px, 0);
   }
   60% {
-    clip: rect(7px, 170px, 12px, 0);
+    clip: rect(15px, 170px, 11px, 0);
   }
   66.66667% {
-    clip: rect(20px, 170px, 13px, 0);
+    clip: rect(11px, 170px, 17px, 0);
   }
   73.33333% {
-    clip: rect(10px, 170px, 15px, 0);
+    clip: rect(17px, 170px, 15px, 0);
   }
   80% {
-    clip: rect(20px, 170px, 5px, 0);
+    clip: rect(19px, 170px, 11px, 0);
   }
   86.66667% {
-    clip: rect(1px, 170px, 14px, 0);
+    clip: rect(2px, 170px, 5px, 0);
   }
   93.33333% {
-    clip: rect(11px, 170px, 18px, 0);
+    clip: rect(6px, 170px, 2px, 0);
   }
   100% {
-    clip: rect(3px, 170px, 18px, 0);
+    clip: rect(12px, 170px, 11px, 0);
   }
 }
 
@@ -6396,7 +6396,7 @@ readers do not read off random characters that represent icons */
       align-content: center;
   color: black;
   font-size: 7em;
-  padding-top: 12%;
+  padding: 8% 0;
 }
 
 /*!
@@ -12194,97 +12194,97 @@ readers do not read off random characters that represent icons */
 
 @keyframes example-one-anim-1 {
   0% {
-    clip: rect(48px, 80px, 8px, 0);
+    clip: rect(27px, 80px, 34px, 0);
   }
   7.14286% {
-    clip: rect(76px, 80px, 41px, 0);
+    clip: rect(63px, 80px, 24px, 0);
   }
   14.28571% {
-    clip: rect(62px, 80px, 14px, 0);
+    clip: rect(21px, 80px, 15px, 0);
   }
   21.42857% {
-    clip: rect(60px, 80px, 6px, 0);
+    clip: rect(80px, 80px, 38px, 0);
   }
   28.57143% {
-    clip: rect(48px, 80px, 9px, 0);
+    clip: rect(20px, 80px, 79px, 0);
   }
   35.71429% {
-    clip: rect(20px, 80px, 61px, 0);
+    clip: rect(35px, 80px, 31px, 0);
   }
   42.85714% {
-    clip: rect(33px, 80px, 63px, 0);
+    clip: rect(41px, 80px, 25px, 0);
   }
   50% {
-    clip: rect(25px, 80px, 13px, 0);
+    clip: rect(64px, 80px, 14px, 0);
   }
   57.14286% {
-    clip: rect(79px, 80px, 34px, 0);
+    clip: rect(53px, 80px, 75px, 0);
   }
   64.28571% {
-    clip: rect(70px, 80px, 15px, 0);
+    clip: rect(45px, 80px, 23px, 0);
   }
   71.42857% {
-    clip: rect(43px, 80px, 55px, 0);
+    clip: rect(16px, 80px, 55px, 0);
   }
   78.57143% {
-    clip: rect(46px, 80px, 44px, 0);
+    clip: rect(58px, 80px, 10px, 0);
   }
   85.71429% {
-    clip: rect(69px, 80px, 53px, 0);
+    clip: rect(15px, 80px, 36px, 0);
   }
   92.85714% {
-    clip: rect(52px, 80px, 42px, 0);
+    clip: rect(79px, 80px, 50px, 0);
   }
   100% {
-    clip: rect(63px, 80px, 39px, 0);
+    clip: rect(31px, 80px, 75px, 0);
   }
 }
 
 @keyframes example-one-anim-2 {
   0% {
-    clip: rect(7px, 80px, 25px, 0);
+    clip: rect(10px, 80px, 36px, 0);
   }
   7.14286% {
-    clip: rect(45px, 80px, 55px, 0);
+    clip: rect(67px, 80px, 70px, 0);
   }
   14.28571% {
-    clip: rect(35px, 80px, 24px, 0);
+    clip: rect(46px, 80px, 61px, 0);
   }
   21.42857% {
-    clip: rect(8px, 80px, 50px, 0);
+    clip: rect(38px, 80px, 74px, 0);
   }
   28.57143% {
-    clip: rect(37px, 80px, 25px, 0);
+    clip: rect(49px, 80px, 52px, 0);
   }
   35.71429% {
-    clip: rect(73px, 80px, 2px, 0);
+    clip: rect(58px, 80px, 77px, 0);
   }
   42.85714% {
-    clip: rect(54px, 80px, 74px, 0);
+    clip: rect(75px, 80px, 54px, 0);
   }
   50% {
-    clip: rect(24px, 80px, 7px, 0);
+    clip: rect(58px, 80px, 52px, 0);
   }
   57.14286% {
-    clip: rect(22px, 80px, 7px, 0);
+    clip: rect(48px, 80px, 17px, 0);
   }
   64.28571% {
-    clip: rect(66px, 80px, 11px, 0);
+    clip: rect(24px, 80px, 60px, 0);
   }
   71.42857% {
-    clip: rect(10px, 80px, 54px, 0);
+    clip: rect(41px, 80px, 5px, 0);
   }
   78.57143% {
-    clip: rect(71px, 80px, 68px, 0);
+    clip: rect(39px, 80px, 41px, 0);
   }
   85.71429% {
-    clip: rect(20px, 80px, 3px, 0);
+    clip: rect(61px, 80px, 5px, 0);
   }
   92.85714% {
-    clip: rect(56px, 80px, 21px, 0);
+    clip: rect(54px, 80px, 12px, 0);
   }
   100% {
-    clip: rect(31px, 80px, 45px, 0);
+    clip: rect(62px, 80px, 63px, 0);
   }
 }
 
@@ -12369,6 +12369,11 @@ readers do not read off random characters that represent icons */
   content: "\f19a";
 }
 
+.schools {
+  border-bottom: black 1px dashed;
+  margin-bottom: 3%;
+}
+
 .school__container {
   height: auto;
   width: 100%;
@@ -12422,6 +12427,7 @@ readers do not read off random characters that represent icons */
   background-size: contain;
   width: 50%;
   height: 100px;
+  margin-bottom: 4%;
 }
 
 .school__container .school__container-inner .school__alx-logo {
@@ -12430,6 +12436,7 @@ readers do not read off random characters that represent icons */
   background-size: contain;
   width: 50%;
   height: 100px;
+  margin-bottom: 4%;
 }
 
 .school_container-lists {
@@ -12440,6 +12447,7 @@ readers do not read off random characters that represent icons */
       justify-content: space-around;
   color: black;
   width: 100%;
+  font-family: 'Oswald', sans-serif;
 }
 
 .school_container-lists .school__coders-main,
@@ -12450,11 +12458,17 @@ readers do not read off random characters that represent icons */
 .school_container-lists .school__coders-list,
 .school_container-lists .school__alx-list {
   padding: 3%;
+  letter-spacing: 5px;
+  line-height: 1.3em;
+  font-size: 1.3em;
+  text-align: center;
 }
 
 .school_container-lists .school__coders-list-title,
 .school_container-lists .school__alx-list-title {
   text-align: center;
+  line-height: 1.5em;
+  font-size: 1.5em;
 }
 
 .container__about {
@@ -12509,7 +12523,7 @@ readers do not read off random characters that represent icons */
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Righteous', cursive;
+  font-family: 'Oswald', sans-serif;
 }
 
 .container__about .container__about-inner .about__fast-pic,
@@ -12597,10 +12611,35 @@ readers do not read off random characters that represent icons */
   width: 100%;
   background-attachment: fixed;
   height: 400px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .about__text-text {
   z-index: 2;
+  color: white;
+  font-size: 1em;
+  z-index: 2;
+  color: white;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 35%;
+  font-family: 'Oswald', sans-serif;
+  line-height: 1.4;
+}
+
+@media (min-width: 1000px) {
+  .about__text-text {
+    font-size: 1.5em;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -12719,20 +12758,155 @@ readers do not read off random characters that represent icons */
   }
 }
 
-.tech__container,
-.school__container,
-.container__about,
-.about__text-main {
+.projects__container {
+  border-bottom: black 1px dashed;
+  margin-bottom: 3%;
+}
+
+.projects__container .projects__container-title {
+  text-align: left;
+  font-size: 2em;
+  font-family: 'Righteous', cursive;
+  position: relative;
+  width: 100px;
+  z-index: 1;
+  margin-bottom: 3%;
+  color: #000;
+}
+
+@media (min-width: 1000px) {
+  .projects__container .projects__container-title {
+    font-size: 3em;
+  }
+}
+
+.projects__container .projects__container-title:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 200%;
+  height: 50%;
+  background-color: #d9b44a;
+  z-index: -1;
+}
+
+.projects__container .projects__container-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  margin: 20px 0;
+}
+
+.projects__container .projects__container-inner .projects-1 {
+  background: url(../img/projekt1.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90%;
+  width: 100%;
+  margin-right: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.projects__container .projects__container-inner .projects-1:hover {
+  opacity: 0.7;
+  scale: 1.1;
+  background-color: #fff;
+}
+
+.projects__container .projects__container-inner .projects-1 .drugi {
+  width: 100%;
+  height: 100%;
+  color: black;
+  background-color: transparent;
+  z-index: 22;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects__container .projects__container-inner .projects-2 {
+  background: url(../img/snejk.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90%;
+  width: 100%;
+  margin-right: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.projects__container .projects__container-inner .projects-2:hover {
+  opacity: 0.5;
+  scale: 1.1;
+  background-color: #fff;
+}
+
+.projects__container .projects__container-inner .projects-2 .drugi1 {
+  width: 100%;
+  height: 100%;
+  color: black;
+  background-color: transparent;
+  z-index: 22;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects__container .projects__container-inner .projects-3 {
+  background: url(../img/under-constj.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90%;
+  width: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.projects__container .projects__container-inner .projects-3:hover {
+  opacity: 0.7;
+  scale: 1.1;
+  background-color: #fff;
+}
+
+.projects__container .projects__container-inner .projects-3 .drugi2 {
+  width: 100%;
+  height: 100%;
+  color: black;
+  background-color: transparent;
+  z-index: 22;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__about {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
 @media (min-width: 1000px) {
-  .tech__container,
-  .school__container,
-  .container__about,
-  .about__text-main {
+  .container__about {
     min-height: 80vh;
   }
 }
