@@ -2,6 +2,7 @@
 import React from 'react';
 // import ReactDOM from 'react-dom';
 const AboutText = () => {
+   
     return (
         <section>
             <div className="about__text-main">

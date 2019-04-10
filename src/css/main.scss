@@ -686,11 +686,12 @@ $color4:#acd0c0;
 }
 
 .school_container-lists {
-    display: none;
+    display: flex;
     justify-content: space-around;
     color: black;
     width: 100%;
     font-family: 'Oswald', sans-serif;
+    transition: 1s ease-in;
 
     .school__coders-main,
     .school__alx-main {
@@ -1043,6 +1044,10 @@ $color4:#acd0c0;
         height: 300px;
         margin: 20px 0;
         // padding: 10px;
+        @media (max-width: 1000px) {
+            height: 150px;
+        }
+
 
         .projects-1 {
             background: url(../img/projekt1.png) no-repeat;
