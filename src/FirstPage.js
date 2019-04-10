@@ -16,9 +16,18 @@ const FirstPage = () => {
                         <div className="nav__inner">
                             <h2 className="nav__logo">Mariusz</h2>
                             <ul className="lista">
-                                <li>about</li>
-                                <li>projects</li>
-                                <li>contact</li>
+                            <a href="#container__about">
+
+                            <li>about</li>
+                        </a> <a href="#projects__container">
+
+                        <li>projects</li>
+                        </a> <a href="#form__container-title">
+
+                        <li>contact</li>
+                        </a>
+
+
                             </ul>
                         </div>
                     </nav>

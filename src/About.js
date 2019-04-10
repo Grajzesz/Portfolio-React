@@ -4,7 +4,7 @@ import React from 'react';
 const About = () => {
     return (
         <section>
-            <div className="container__about">
+            <div id="container__about" className="container__about">
                 <h2 className="container__about-title">About</h2>
                 <div className="container__about-inner">
                     <div className="about__fast">
@@ -16,7 +16,7 @@ const About = () => {
                         </div>
                         <div className="about__fast-text">
                             <p>
-                            Websites don't have to be static, I love making
+                                Websites don't have to be static, I love making
                                 pages come to life.
                             </p>
                         </div>

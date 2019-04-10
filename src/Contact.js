@@ -2,7 +2,7 @@ import React from 'react';
 const Contact = () => {
     return (
         <section className="formularz">
-            <div className="form__container-title">Contact</div>
+            <div id="form__container-title" className="form__container-title">Contact</div>
             <form method="POST" action="./mail.php">
                 <div className="box">
                     {/* <h1>Formularz kontaktowy :</h1> */}

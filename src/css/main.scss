@@ -119,6 +119,11 @@ $color4:#acd0c0;
                 justify-content: space-around;
                 margin-right: -18%;
 
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+
             }
         }
 
@@ -407,7 +412,7 @@ $color4:#acd0c0;
     color: rgb(255, 0, 0);
     /* height: 400px; */
     /* width: 90%; */
-    padding: 1% 1% 10% 1%;
+    padding: 1% 1% 7% 1%;
     margin: 0 auto;
     margin-bottom: 3%;
     border-bottom: black 1px dashed;
@@ -1043,6 +1048,7 @@ $color4:#acd0c0;
         display: flex;
         height: 300px;
         margin: 20px 0;
+
         // padding: 10px;
         @media (max-width: 1000px) {
             height: 150px;
