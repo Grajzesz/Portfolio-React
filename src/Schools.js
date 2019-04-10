@@ -5,11 +5,13 @@ const Schools = () => {
     return (
         <section className="schools">
             <div className="school__container"> <h2 className="school__container-title">Education</h2>
+
                 <div className="school__container-inner">
                     <div className="school__coders-logo" />
                     <div className="school__alx-logo" />
                 </div>
-            </div>
+                <div className="school__button-container"><div className="school__button"><i className="fas fa-chevron-circle-down"></i></div>
+            </div></div>
             <div className="school_container-lists">
                 <div className="school__coders-main">
                     <h2 className="school__coders-list-title">

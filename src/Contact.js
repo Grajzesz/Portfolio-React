@@ -3,7 +3,7 @@ const Contact = () => {
     return (
         <section className="formularz">
             <div className="form__container-title">Contact</div>
-            <form>
+            <form method="POST" action="./mail.php">
                 <div className="box">
                     {/* <h1>Formularz kontaktowy :</h1> */}
                     {/* <label>
@@ -36,7 +36,7 @@ const Contact = () => {
                             id="tresc"
                         />
                     </label>
-                    <input type="button" className="button" value="Wyślj" />
+                    <input type="submit" className="button" value="Wyślj" />
                 </div>
             </form>
         </section>

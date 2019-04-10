@@ -604,8 +604,22 @@ $color4:#acd0c0;
 .school__container {
     height: auto;
     width: 100%;
-    padding: 1% 1% 1% 1%;
+    padding: 1% 1% 4% 1%;
 
+    .school__button-container {
+        // width:50px;
+        // height:50px;
+        // background-color:black;
+        // margin: 0 auto;
+        color: $color2;
+        font-size: 2em;
+        text-align: center;
+
+        .school__button {
+            cursor: pointer;
+            display: inline;
+        }
+    }
 
     .school__container-title {
         text-align: left;
@@ -672,7 +686,7 @@ $color4:#acd0c0;
 }
 
 .school_container-lists {
-    display: flex;
+    display: none;
     justify-content: space-around;
     color: black;
     width: 100%;
@@ -1134,7 +1148,7 @@ $color4:#acd0c0;
 .formularz {
     background: $color1;
     padding: 3% 0;
-
+    font-family: 'Oswald',
 
     form,
     input,
@@ -1142,7 +1156,7 @@ $color4:#acd0c0;
     textarea {
         margin: 0;
         padding: 0;
-        color: #ffffff;
+        color: #000000;
 
     }
 
@@ -1218,20 +1232,20 @@ div.box .wpis {
     padding: 10px 10px;
     width: 50%;
     // background: #262626;
-    border-bottom: 1px double #171717;
-    border-top: 1px double #171717;
-    border-left: 1px double #333333;
-    border-right: 1px double #333333;
+    border-bottom: 1px double $color3;
+    border-top: 1px double $color3;
+    border-left: 1px double $color3;
+    border-right: 1px double $color3;
 }
 
 div.box .wiadomosc {
     padding: 7px 7px;
     width: 50%;
     // background: #262626;
-    border-bottom: 1px double #171717;
-    border-top: 1px double #171717;
-    border-left: 1px double #333333;
-    border-right: 1px double #333333;
+    border-bottom: 1px double $color3;
+    border-top: 1px double $color3;
+    border-left: 1px double $color3;
+    border-right: 1px double $color3;
     overflow: hidden;
     height: 150px;
 }
@@ -1245,5 +1259,5 @@ div.box .button {
     // top: 10px;
     // left: 382px;
     width: 100px;
-    border: 1px double #660000;
+    border: 1px double $color3;
 }
